@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+
+        <h2>Student Registration Form</h2>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <!-- First Name -->
+            <label for="fname">First Name</label>
+            <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter your first name"
+                required
+            >
+
+            <!-- Last Name -->
+            <label for="lname">Last Name</label>
+            <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Enter your last name"
+                required
+            >
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth</label>
+            <input
+                type="date"
+                id="dob"
+                name="dob"
+                required
+            >
+
+            <!-- Gender -->
+            <label>Gender</label>
+
+            <div class="gender-group">
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Male"
+                        required
+                    >
+                    Male
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Female"
+                    >
+                    Female
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Other"
+                    >
+                    Other
+                </label>
+            </div>
+
+            <!-- Course Selection -->
+            <label for="course">Select Course</label>
+
+            <select id="course" name="course" required>
+                <option value="">-- Choose a Course --</option>
+                <option value="Advance .NET">Advance .NET</option>
+                <option value="Software Quality and Testing">
+                    Software Quality and Testing
+                </option>
+                <option value="Software Requirement Engineering">
+                    Software Requirement Engineering
+                </option>
+            </select>
+
+            <!-- File Attachment -->
+            <label for="file">Choose File Attachment</label>
+            <input
+                type="file"
+                id="file"
+                name="file"
+            >
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
