@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgba(148, 137, 127, 0.756);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.topnav{
+
+}
+
+
+
+
+
+
+
+
+
+h1{
+    
+    right: 100px;
+    color:rgb(16, 15, 14);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    
+    font-size: 20px;
+}
+.spara{
+    color:rgb(10, 8, 5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 0;
+    position: left;
+    
+}
